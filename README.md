@@ -1,11 +1,21 @@
-# N-net homepage redesign
+# Senda
 
-Redesign proposal for the official site homepage of **N-net** (Shenzhen N-net High-Tech Co., Ltd. / 深圳市巨联高科技有限公司).
+Muestra de tienda para una marca independiente de iluminación de interior. La interfaz está en español y los precios en pesos chilenos. El carro vive en el navegador (`localStorage`). No hay pago, cuentas ni pedidos.
 
-This is a static HTML page. Open `index.html` in a browser, or enable GitHub Pages on this repository to view it online.
+## Cómo verla en local
 
-# N-net 官网首页改版方案
+```bash
+npm install
+npm run dev
+```
 
-**N-net / 深圳市巨联高科技有限公司** 官方网站首页的改版提案。
+Abrir [http://localhost:3000](http://localhost:3000).
 
-静态 HTML。在本地用浏览器打开 `index.html`，或为本仓库开启 GitHub Pages 即可在线查看。
+## Export estático
+
+```bash
+npm run build
+npx --yes serve out
+```
+
+El pago queda fuera de alcance: la página del carro termina en el estado «El pago no está conectado».
