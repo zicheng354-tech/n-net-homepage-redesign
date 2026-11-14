@@ -7,22 +7,22 @@ const scenes = [
   {
     src: "/scenes/hallway.jpg",
     title: "Pasillo",
-    text: "El 7011, en horizontal. Tres haces arriba y tres abajo.",
+    text: "El Arco, en horizontal. Tres haces arriba y tres abajo.",
   },
   {
     src: "/scenes/entry.jpg",
     title: "Acceso",
-    text: "El cubo 7010, abierto arriba y abajo.",
+    text: "El Cubo, abierto arriba y abajo.",
   },
   {
     src: "/scenes/bedroom.jpg",
     title: "Dormitorio",
-    text: "El 7257 sobre la cama. LED abajo y haz hacia arriba.",
+    text: "La Columna sobre la cama. LED abajo y haz hacia arriba.",
   },
 ];
 
 export default function HomePage() {
-  const hero = getProduct("7011");
+  const hero = getProduct("arco");
   const desde = Math.min(...products.map((product) => product.price));
 
   return (
@@ -95,11 +95,11 @@ export default function HomePage() {
           </li>
           <li>
             <span>Cristal texturado</span>
-            <span>El frente de 7308 y 7309</span>
+            <span>El frente de Cristal y Facetas</span>
           </li>
           <li>
             <span>Latón</span>
-            <span>La cintura de 7275</span>
+            <span>La cintura del Reloj</span>
           </li>
         </ul>
       </section>

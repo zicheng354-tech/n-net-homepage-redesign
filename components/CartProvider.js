@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
+import { getProduct } from "../lib/products";
 
 const CartContext = createContext(null);
 const STORAGE_KEY = "senda-carro";
@@ -15,6 +16,7 @@ function readStored() {
       (item) =>
         item &&
         typeof item.slug === "string" &&
+        getProduct(item.slug) &&
         Number.isInteger(item.qty) &&
         item.qty > 0 &&
         item.qty <= 12

@@ -5,7 +5,7 @@ import { Plate } from "../../components/Plate";
 
 export const metadata = { title: "Iluminación" };
 
-const wide = new Set(["7011", "7275"]);
+const wide = new Set(["arco", "reloj"]);
 
 export default function CollectionPage() {
   const list = catalogProducts();
@@ -22,7 +22,7 @@ export default function CollectionPage() {
       <div className="catalog">
         {list.map((product) => {
           const span = wide.has(product.slug);
-          const flip = product.slug === "7275";
+          const flip = product.slug === "reloj";
           return (
             <article
               key={product.slug}
