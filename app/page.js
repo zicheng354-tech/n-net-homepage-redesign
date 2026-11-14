@@ -7,17 +7,17 @@ const scenes = [
   {
     src: "/scenes/hallway.jpg",
     title: "Pasillo",
-    text: "Un medio cilindro lava el muro largo.",
+    text: "El 7011, en horizontal. Tres haces arriba y tres abajo.",
   },
   {
     src: "/scenes/entry.jpg",
     title: "Acceso",
-    text: "El cubo queda junto a la puerta.",
+    text: "El cubo 7010, abierto arriba y abajo.",
   },
   {
     src: "/scenes/bedroom.jpg",
     title: "Dormitorio",
-    text: "Una sola pieza sobre la cabecera.",
+    text: "El 7257 sobre la cama. LED abajo y haz hacia arriba.",
   },
 ];
 
@@ -29,13 +29,13 @@ export default function HomePage() {
     <>
       <section className="hero wrap">
         <div className="hero-copy">
-          <p className="kicker">Taller en Santiago</p>
+          <p className="kicker">Serie de muro</p>
           <h1>
-            Luz baja, <em>para quedarse.</em>
+            Negro mate, <em>luz en el muro.</em>
           </h1>
           <p className="dek">
-            Apliques de muro en aluminio negro mate. Una luz cálida, hacia arriba
-            y hacia abajo, para el pasillo y el dormitorio.
+            Dieciséis apliques. El cuerpo es el de la foto: cubo, arco, zigzag o
+            cilindro. El haz cae sobre el mismo muro claro.
           </p>
           <Link href="/iluminacion" className="link-brass">
             Ver la colección
@@ -76,12 +76,12 @@ export default function HomePage() {
 
       <section className="section wrap essay">
         <div>
-          <p className="kicker">El taller</p>
-          <h2>Pocas formas</h2>
+          <p className="kicker">La serie</p>
+          <h2>Un muro, un acabado</h2>
           <p>
-            Una sola familia: aluminio negro mate y una luz cálida. Los apliques
-            lavan el muro hacia arriba, hacia abajo, o las dos cosas. El catálogo
-            no mezcla acabados.
+            Todo el catálogo es aluminio negro mate sobre muro claro. Cambia el
+            corte: cubo abierto, medio cilindro, cristal al frente, escalón en
+            zigzag. El haz de la foto es el de la pieza.
           </p>
         </div>
         <ul className="materials">
@@ -95,7 +95,7 @@ export default function HomePage() {
           </li>
           <li>
             <span>Cristal texturado</span>
-            <span>El frente de 7308</span>
+            <span>El frente de 7308 y 7309</span>
           </li>
           <li>
             <span>Latón</span>

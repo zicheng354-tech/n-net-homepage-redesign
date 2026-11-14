@@ -44,7 +44,7 @@ export function Frame({ children }) {
         <div className="wrap bar">
           <Link href="/" className="wordmark">
             Senda
-            <span>Iluminación de interior</span>
+            <span>Apliques de muro</span>
           </Link>
           <nav className="nav" aria-label="Principal">
             <Link href="/iluminacion" aria-current={pathname.startsWith("/iluminacion") ? "page" : undefined}>
@@ -67,7 +67,7 @@ export function Frame({ children }) {
         <div className="wrap foot">
           <div>
             <strong>Senda</strong>
-            <p>Apliques de muro en aluminio negro mate. Taller en Santiago.</p>
+            <p>Negro mate sobre muro claro. La luz sale en haces, arriba o abajo.</p>
           </div>
           <div>
             <strong>Colección</strong>

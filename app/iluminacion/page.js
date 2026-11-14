@@ -16,7 +16,7 @@ export default function CollectionPage() {
         <p className="kicker">Colección</p>
         <h1>Iluminación</h1>
         <p className="dek">
-          Dieciséis apliques de muro, en negro mate. Precios en pesos chilenos.
+          Dieciséis apliques. Cada foto es esa pieza, sobre el mismo muro. Precios en pesos chilenos.
         </p>
       </header>
       <div className="catalog">

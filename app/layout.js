@@ -20,15 +20,15 @@ const serif = Newsreader({
 
 export const metadata = {
   title: {
-    default: "Senda — Iluminación de interior",
+    default: "Senda — Apliques de muro",
     template: "%s — Senda",
   },
   description:
-    "Apliques de muro en aluminio negro mate. Muestra de tienda en pesos chilenos, sin pago.",
+    "Apliques de muro en aluminio negro mate. Cada foto corresponde a esa pieza. Muestra en pesos chilenos, sin pago.",
 };
 
 export const viewport = {
-  themeColor: "#f3eee6",
+  themeColor: "#e7e4df",
   width: "device-width",
   initialScale: 1,
 };
