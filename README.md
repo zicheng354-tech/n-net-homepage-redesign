@@ -1,6 +1,6 @@
 # Senda
 
-Muestra de tienda para una marca independiente de iluminación de interior. La interfaz está en español y los precios en pesos chilenos. El carro vive en el navegador (`localStorage`). No hay pago, cuentas ni pedidos.
+Muestra de tienda para una serie de dieciséis apliques de muro. La interfaz está en español y los precios en pesos chilenos. El carro vive en el navegador (`localStorage`). No hay pago, cuentas ni pedidos.
 
 ## Cómo verla en local
 

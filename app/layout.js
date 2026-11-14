@@ -24,7 +24,7 @@ export const metadata = {
     template: "%s — Senda",
   },
   description:
-    "Luminarias de interior en series cortas. Latón, lino, cerámica y madera. Muestra de tienda en pesos chilenos, sin pago.",
+    "Apliques de muro en aluminio negro mate. Muestra de tienda en pesos chilenos, sin pago.",
 };
 
 export const viewport = {

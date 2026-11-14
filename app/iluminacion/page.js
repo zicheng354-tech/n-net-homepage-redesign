@@ -5,7 +5,7 @@ import { Plate } from "../../components/Plate";
 
 export const metadata = { title: "Iluminación" };
 
-const wide = new Set(["pie-nube", "colgante-disco"]);
+const wide = new Set(["7011", "7275"]);
 
 export default function CollectionPage() {
   const list = catalogProducts();
@@ -16,14 +16,13 @@ export default function CollectionPage() {
         <p className="kicker">Colección</p>
         <h1>Iluminación</h1>
         <p className="dek">
-          Ocho luminarias de interior. Colgantes, de mesa, de pie y apliques. Precios en
-          pesos chilenos.
+          Dieciséis apliques de muro, en negro mate. Precios en pesos chilenos.
         </p>
       </header>
       <div className="catalog">
         {list.map((product) => {
           const span = wide.has(product.slug);
-          const flip = product.slug === "colgante-disco";
+          const flip = product.slug === "7275";
           return (
             <article
               key={product.slug}

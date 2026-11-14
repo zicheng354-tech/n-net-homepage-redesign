@@ -67,7 +67,7 @@ export function Frame({ children }) {
         <div className="wrap foot">
           <div>
             <strong>Senda</strong>
-            <p>Luminarias de interior en series cortas. Taller en Santiago.</p>
+            <p>Apliques de muro en aluminio negro mate. Taller en Santiago.</p>
           </div>
           <div>
             <strong>Colección</strong>
