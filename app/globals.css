@@ -198,7 +198,7 @@ button[aria-current="page"] { box-shadow: inset 0 -1px 0 var(--brass); }
 }
 .plate-wrap { display: block; background: var(--plate); }
 .plate-wrap:hover { opacity: 0.94; }
-.plate svg { display: block; width: 100%; height: auto; }
+.plate img { display: block; width: 100%; height: auto; }
 .cap { max-width: 36ch; padding-top: 16px; }
 .cap h2 {
   font-family: var(--font-serif), Palatino, serif;
